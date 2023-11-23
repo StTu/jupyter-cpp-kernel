@@ -10,7 +10,7 @@ Works only on Linux and OS X. Windows is not supported yet. If you want to use t
 
 
  * Make sure you have the following requirements installed:
-  * gcc
+  * g++
   * jupyter
   * python 3
   * pip
