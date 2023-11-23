@@ -5,7 +5,7 @@ setup(name='jupyter_cpp_kernel',
       version='0.0.1',
       description='Minimalistic Cpp kernel for Jupyter',
       author='Stuart James heavily based on work of Brendan Rius',
-      author_email='ping@brendan-rius.com',
+      author_email='min_cpp@stuart-james.net',
       license='MIT',
       classifiers=[
           'License :: OSI Approved :: MIT License',

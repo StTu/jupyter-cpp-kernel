@@ -8,8 +8,7 @@ This is a direct adaption of the Minimal C kernel for Jupyter by Brendan Rius ma
 
 Works only on Linux and OS X. Windows is not supported yet. If you want to use this project on Windows, please use Docker.
 
-
- * Make sure you have the following requirements installed:
+Make sure you have the following requirements installed:
   * g++
   * jupyter
   * python 3
@@ -17,7 +16,7 @@ Works only on Linux and OS X. Windows is not supported yet. If you want to use t
 
 ### Step-by-step:
 
- * Clone this repository
+ * Clone this repository (`git clone git@github.com:StTu/jupyter-cpp-kernel.git`)
  * Run `pip install -U .` in the root of the repository
  * Run `install_cpp_kernel` to install the kernel
  * Run `jupyter notebook` and select the `Cpp` kernel when creating a new notebook
@@ -32,7 +31,7 @@ Works only on Linux and OS X. Windows is not supported yet. If you want to use t
 
 You can use custom compilation flags like so:
 
-![Custom compulation flag](custom_flags.png?raw=true "Example of notebook using custom compilation flags")
+` //%cppflags:-lm `
 
 Here, the `-lm` flag is passed so you can use the math library.
 
